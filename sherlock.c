@@ -32,7 +32,7 @@ int 		nfiles = 0;
 char ** 	filePath;
 
 /* characters to ignore at start and end of each word */
-char *		Ignore = " \t\n";
+char *		Ignore = " \t\n\r";
 
 /* characters to treat as word-separators or words on their own */
 char *		Punct_full = ",.<>/?;:'\"`~[]{}\\|!@#$%^&*()-+_=";
